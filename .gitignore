@@ -1,0 +1,17 @@
+# Excel source files and tracking sheets
+*.xlsx
+~*
+
+# HTML dashboard backup fallbacks
+BP_Dashboard_Unificado-BPMAT07.html
+BP_Dashboard_Unificado new design.html
+
+# Local system secrets (CRITICAL)
+_Sistema/supabase_config.json
+_Sistema/_tracking_*.json
+
+# Logs and system temps
+_Sistema/logs/
+*.log
+*.csv
+.claude/
